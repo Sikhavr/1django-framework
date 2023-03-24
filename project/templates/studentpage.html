@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>studentpage</title>
+</head>
+<body>
+<form method="POST">
+  {% csrf_token %}
+  enter your name:<input type="text" name="name">
+  enter your ahe:<input type="number" name="age">
+  <input type="submit" value="submit">
+</form>
+</body>
+</html>

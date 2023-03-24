@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOGIN PAGE</title>
+</head>
+<body>
+<h1>login page</h1>
+<form method="POST" action="./logfun">
+      {% csrf_token %}
+    enter your name:<input type="text" name="name"><br>
+<!--    enter your age:<input type="text" name="age"><br>-->
+    enter your email:<input type="email" name="email"><br>
+<!--    enter your passwpord:<input type="password" name="password"><br>-->
+<!--    enter your contactnumber:<input type="text" name="contactnumber"><br>-->
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
